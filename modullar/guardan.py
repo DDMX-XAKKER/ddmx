@@ -18,10 +18,10 @@ async def red(event):
                 protectionmode.remove("off")
         guardmodeon = "on"
         if guardmodeon in protectionmode:
-            await event.client.send_message(messagelocation, "Lichkangizga yozgan odam endi avtomatik blocklanadi...\nJOJO | USERBOT")
+            await event.client.send_message(messagelocation, "Lichkangizga yozgan odam endi avtomatik blocklanadi...\nDDMX | USERBOT")
         else:
             protectionmode.add(guardmodeon)
-            await event.client.send_message(messagelocation, "Lichkangizga yozgan odam endi avtomatik blocklanadi...\nJOJO | USERBOT")
+            await event.client.send_message(messagelocation, "Lichkangizga yozgan odam endi avtomatik blocklanadi...\nDDMX | USERBOT")
     except:
         pass
 
@@ -36,10 +36,10 @@ async def reduz(event):
         if "on" in protectionmode:
             protectionmode.remove("on")
         if guardmodeoff in protectionmode:
-            await event.client.send_message(messagelocation, "BLOCK - plugini oʻchirildi...\nJOJO | USERBOT")
+            await event.client.send_message(messagelocation, "BLOCK - plugini oʻchirildi...\nDDMX | USERBOT")
         else:
             protectionmode.add(guardmodeoff)
-            await event.client.send_message(messagelocation, "BLOCK - plugini oʻchirildi...\nJOJO | USERBOT")
+            await event.client.send_message(messagelocation, "BLOCK - plugini oʻchirildi...\nDDMX | USERBOT")
     except:
         pass
 
@@ -118,7 +118,7 @@ async def reduzbek77(event):
         pass
 
 @events.register(events.NewMessage)
-async def reduzbek7719(event):
+async def xakker(event):
     if event.is_private:
         getridogramuserdetails = await event.client(GetFullUserRequest("me"))
         ridogramuser = getridogramuserdetails.users[0].id
