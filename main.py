@@ -150,25 +150,25 @@ with client as darknet:
 				darknet.add_event_handler(modullar.afk.runmcfafk)
 #guardanon
 with client as darknet:
-				darknet.add_event_handler(modullar.guardan.anon1maus_xakker)
+				darknet.add_event_handler(modullar.guardan.red)
 #guardanoff
 with client as darknet:
-				darknet.add_event_handler(modullar.guardan.anon1maus_xakker)
+				darknet.add_event_handler(modullar.guardan.reduz)
 #guardanstatus
 with client as darknet:
-				darknet.add_event_handler(modullar.guardan.anon1maus_xakker)
+				darknet.add_event_handler(modullar.guardan.reduzb)
 #guardanon
 with client as darknet:
-				darknet.add_event_handler(modullar.guardan.anon1maus_xakker)
+				darknet.add_event_handler(modullar.guardan.reduzbe)
 #guardanon
 with client as darknet:
-				darknet.add_event_handler(modullar.guardan.anon1maus_xakker)
+				darknet.add_event_handler(modullar.guardan.reduzbek)
 #guardanon
 with client as darknet:
-				darknet.add_event_handler(modullar.guardan.anon1maus_xakker)
+				darknet.add_event_handler(modullar.guardan.reduzbek77)
 #guardanon
 with client as darknet:
-				darknet.add_event_handler(modullar.guardan.anon1maus_xakker)
+				darknet.add_event_handler(modullar.guardan.reduzbek7719)
 #iptrace
 with client as darknet:
 				darknet.add_event_handler(modullar.iptrace.iptrace)
@@ -271,15 +271,12 @@ client.start()
 botClient.start()
 os.system("clear")
 print("""\033[1;33m
- ▄▄▄██▀▀▀▒█████   ▄▄▄██▀▀▀▒█████  
-   ▒██  ▒██▒  ██▒   ▒██  ▒██▒  ██▒
-   ░██  ▒██░  ██▒   ░██  ▒██░  ██▒
-▓██▄██▓ ▒██   ██░▓██▄██▓ ▒██   ██░
- ▓███▒  ░ ████▓▒░ ▓███▒  ░ ████▓▒░
- ▒▓▒▒░  ░ ▒░▒░▒░  ▒▓▒▒░  ░ ▒░▒░▒░ 
- ▒ ░▒░    ░ ▒ ▒░  ▒ ░▒░    ░ ▒ ▒░ 
- ░ ░ ░  ░ ░ ░ ▒   ░ ░ ░  ░ ░ ░ ▒  
- ░   ░      ░ ░   ░   ░      ░ ░  
+██████╗░██████╗░███╗░░░███╗██╗░░██╗
+██╔══██╗██╔══██╗████╗░████║╚██╗██╔╝
+██║░░██║██║░░██║██╔████╔██║░╚███╔╝░
+██║░░██║██║░░██║██║╚██╔╝██║░██╔██╗░
+██████╔╝██████╔╝██║░╚═╝░██║██╔╝╚██╗
+╚═════╝░╚═════╝░╚═╝░░░░░╚═╝╚═╝░░╚═╝ 
                                   
 \033[1;32m
 DDMX USERBOT - ISHGA TUSHURILDI
